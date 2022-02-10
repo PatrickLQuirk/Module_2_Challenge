@@ -1,24 +1,34 @@
+:root {
+  --color-light-blue: #92cccd;
+  --color-black: #31343d;
+}
+
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   font-family: Arial;
-  margin: 0;
 }
 
 header {
-  padding: 10px 0;
-  background: #13293d;
-  color: #fff;
+  padding: 10px 35px 10px 0;
+  background: var(--color-black);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 header h1 {
-  background-color: aqua;
-  font-size: 50px;
+  background-color: var(--color-light-blue);
+  color: var(--color-black);
+  font-size: 45px;
+  padding: 0 10px 0 40px;
+}
+
+header nav {
+  margin: 7px 0;
 }
 
 header nav ul {
@@ -29,10 +39,18 @@ header nav ul {
   list-style: none;
 }
 
+header nav ul li {
+  margin: 0 10px;
+  border-bottom: 5px solid var(--color-light-blue);
+}
+
 header nav ul li a {
-  padding: 0 20px;
+  margin: 0;
+  padding: 10px 5px;
   text-decoration: none;
   text-align: center;
+  color: var(--color-light-blue);
+  font-size: 1.55vw;
 }
 
 /* 
