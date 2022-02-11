@@ -92,3 +92,8 @@ aside {
 aside h2 {
   font-size: 150%;
 }
+
+#run-buddy-screenshot {
+  width: 500px;
+  height: 200px;
+}
