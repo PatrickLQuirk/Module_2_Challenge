@@ -85,15 +85,6 @@ main {
   font-size: 110%;
 }
 
-aside {
-  width: 25%;
-}
-
-aside h2 {
-  font-size: 150%;
-}
-
 #run-buddy-screenshot {
-  width: 500px;
-  height: 200px;
+  width: 100%
 }
