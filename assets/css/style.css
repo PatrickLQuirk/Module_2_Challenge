@@ -85,6 +85,19 @@ main {
   font-size: 110%;
 }
 
-#run-buddy-screenshot {
-  width: 100%
+#first-application {
+  display: inline-block;
+  border: 5px solid var(--color-light-blue);
+  position: relative;
+}
+
+#first-application a img {
+  width: 100%;
+}
+
+#first-application div {
+  background-color: var(--color-light-blue);
+  position: absolute;
+  left: 0;
+  bottom: 40px;
 }
