@@ -101,3 +101,15 @@ main {
   left: 0;
   bottom: 40px;
 }
+
+#contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+#contact-info h3, #contact-info a {
+  border-bottom: 5px solid var(--color-other-blue);
+  padding: 0 5px;
+}
