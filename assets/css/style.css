@@ -87,12 +87,12 @@ main {
 
 #first-application {
   display: inline-block;
-  border: 5px solid var(--color-light-blue);
   position: relative;
 }
 
 #first-application a img {
   width: 100%;
+  border: 5px solid var(--color-light-blue);
 }
 
 #first-application div {
