@@ -85,21 +85,38 @@ main {
   font-size: 110%;
 }
 
-#first-application {
-  display: inline-block;
+#other-applications {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
+}
+
+.deployed-application {
+  position: relative;
+  width: 48%;
+}
+
+.deployed-application a img {
+  width: 100%;
+  border: 5px solid var(--color-light-blue);
+}
+
+.deployed-application div {
+  background-color: var(--color-light-blue);
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+}
+
+#first-application {
+  position: relative;
+  width: 100%;
 }
 
 #first-application a img {
   width: 100%;
   border: 5px solid var(--color-light-blue);
-}
-
-#first-application div {
-  background-color: var(--color-light-blue);
-  position: absolute;
-  left: 0;
-  bottom: 40px;
 }
 
 #contact-info {
