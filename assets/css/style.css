@@ -102,6 +102,11 @@ main {
 .deployed-application a img {
   width: 100%;
   border: 5px solid var(--color-light-blue);
+  opacity: 0.75;
+}
+
+.deployed-application a img:hover {
+  opacity: 1;
 }
 
 .deployed-application div {
