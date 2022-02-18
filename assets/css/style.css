@@ -2,6 +2,7 @@
   --color-light-blue: #92cccd;
   --color-black: #31343d;
   --color-other-blue: #445876;
+  --color-background: #ededf6;
 }
 
 * {
@@ -11,6 +12,7 @@
 
 body {
   font-family: Arial;
+  background-color: var(--color-background);
 }
 
 header {
@@ -62,11 +64,11 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .section-title {
-  width: 15%;
+  width: 12%;
   font-size: 200%;
   text-align: right;
   margin: 3.5%;
@@ -74,10 +76,10 @@ main {
 }
 
 .section-content {
-  width: 65%;
+  width: 68%;
   margin: 3.5% 3.5% 3.5% 0;
   border-left: 5px solid var(--color-other-blue);
-  padding-left: 6%;;
+  padding-left: 6%;
 }
 
 .section-content p {
@@ -135,6 +137,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 20px;
+  align-items: center;
 }
 
 #contact-info h3, #contact-info a {
