@@ -68,12 +68,16 @@ main {
 }
 
 .section-title {
-  width: 12%;
+  width: 15.5%;
   font-size: 200%;
   text-align: right;
-  margin: 3.5%;
+  margin: 3.5% 3.5% 3.5% 0;
   color: var(--color-other-blue);
 }
+
+/* Having the border on the section content instead of the section title is an artifact of my initial
+attempt to get the border to be long enough. This came from before I added the 'align-items: stretch' declaration
+to .section */
 
 .section-content {
   width: 68%;
