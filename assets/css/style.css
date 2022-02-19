@@ -1,7 +1,7 @@
 :root {
-  --color-light-blue: #92cccd;
+  --color-borders: #92cccd;
   --color-black: #31343d;
-  --color-other-blue: #445876;
+  --color-section-title: #445876;
   --color-background: #ededf6;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 header h1 {
-  background-color: var(--color-light-blue);
+  background-color: var(--color-borders);
   color: var(--color-black);
   font-size: 45px;
   padding: 0 10px 0 40px;
@@ -44,7 +44,7 @@ header nav ul {
 
 header nav ul li {
   margin: 0 10px;
-  border-bottom: 5px solid var(--color-light-blue);
+  border-bottom: 5px solid var(--color-borders);
 }
 
 header nav ul li a {
@@ -52,7 +52,7 @@ header nav ul li a {
   padding: 10px 5px;
   text-decoration: none;
   text-align: center;
-  color: var(--color-light-blue);
+  color: var(--color-borders);
   font-size: 1.55vw;
 }
 
@@ -72,7 +72,7 @@ main {
   font-size: 200%;
   text-align: right;
   margin: 3.5% 3.5% 3.5% 0;
-  color: var(--color-other-blue);
+  color: var(--color-section-title);
 }
 
 /* Having the border on the section content instead of the section title is an artifact of my initial
@@ -82,7 +82,7 @@ to .section */
 .section-content {
   width: 68%;
   margin: 3.5% 3.5% 3.5% 0;
-  border-left: 5px solid var(--color-other-blue);
+  border-left: 5px solid var(--color-section-title);
   padding-left: 6%;
 }
 
@@ -105,7 +105,7 @@ to .section */
 
 .deployed-application a img {
   width: 100%;
-  border: 5px solid var(--color-light-blue);
+  border: 5px solid var(--color-borders);
   opacity: 0.75;
 }
 
@@ -114,7 +114,7 @@ to .section */
 }
 
 .deployed-application div {
-  background-color: var(--color-light-blue);
+  background-color: var(--color-borders);
   position: absolute;
   left: 5px;
   bottom: 30px;
@@ -138,7 +138,7 @@ to .section */
 
 #first-application a img {
   width: 100%;
-  border: 5px solid var(--color-light-blue);
+  border: 5px solid var(--color-borders);
 }
 
 #contact-info {
@@ -150,6 +150,6 @@ to .section */
 }
 
 #contact-info h3, #contact-info a {
-  border-bottom: 5px solid var(--color-other-blue);
+  border-bottom: 5px solid var(--color-section-title);
   padding: 0 5px;
 }
