@@ -157,10 +157,16 @@ to .section */
 @media screen and (max-width: 980px) {
   header {
     display: block;
+    padding: 10px 35px 10px 35px;
   }
 
   header h1 {
     text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  header nav ul {
     padding: 0;
   }
 
